@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+
+# Build output
+*.exe
+*.o
+*.out
+*.obj
+bin/
+build/
+Debug/
+Release/

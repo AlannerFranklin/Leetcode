@@ -5,9 +5,6 @@
 
 using namespace std;
 
-// LeetCode 3: Longest Substring Without Repeating Characters
-// Difficulty: Medium
-// Tag: Sliding Window, Hash Table
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -19,16 +16,18 @@ public:
         {
             char ch = s[right];
             
-            // While duplicate exists, shrink window from left
+            // 核心逻辑：如果有重复，必须一直删，直到把那个重复的字符删掉为止
             while (window.find(ch) != window.end()) {
+                // 删除窗口最左边的字符
                 window.erase(s[left]);
+                // 左边界右移
                 left++;
             }
             
-            // Add new character
+            // 现在窗口没有重复了，把新字符放进去
             window.insert(ch);
             
-            // Update max length
+            // 更新最大长度
             max_length = std::max(right - left + 1, max_length);
         }
         return max_length;

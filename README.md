@@ -1,27 +1,41 @@
-# LeetCode Practice Journal 🚀
+# LeetCode 刷题记录
 
-This repository documents my journey of solving LeetCode problems for Spring Recruitment (春招). 
-Instead of just storing code, I focus on capturing the **core logic**, **pitfalls**, and **patterns** for future review.
+这里记录了我在 LeetCode 上的解题代码和核心思路。
 
-## 📂 Structure
-- Solutions are grouped by topic/pattern (e.g., `SlidingWindow`, `BitManipulation`).
-- Each file contains the solution and brief comments on the "Aha!" moments or bugs encountered.
+## 目录
 
-## 📝 Problem List & Notes
-
-### [868. Binary Gap (二进制间距)](https://leetcode.cn/problems/binary-gap/)
-- **Tag**: Bit Manipulation
-- **Key Insight**: 
-  - Iterate through bits. 
-  - **Pitfall**: Don't assume the first `1` is at index 0. Initialize `last_position = -1` to handle the start correctly.
-  - **Logic**: Only calculate distance when `last_position != -1`.
-
-### [3. Longest Substring Without Repeating Characters (无重复字符的最长子串)](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
-- **Tag**: Sliding Window, Hash Set
-- **Key Insight**: 
-  - Maintain a window `[left, right]` and a `set` for checking duplicates.
-  - **Core Logic**: When a duplicate `c` is found, **keep shrinking** the window from the left (`window.erase(s[left]), left++`) until the duplicate is removed.
-  - **Pitfall**: Don't just `erase` once; use `while` loop.
+- [868. 二进制间距](#868-二进制间距)
+- [3. 无重复字符的最长子串](#3-无重复字符的最长子串)
 
 ---
-*Created by [Your Name/Username]*
+
+### 868. 二进制间距
+
+**题目描述**：找到并返回 `n` 的二进制表示中两个相邻 `1` 之间的最长距离。
+
+**核心思路**：
+- 不需要将二进制转为数组再遍历，可以一边通过 `n /= 2` 获取二进制位，一边计算。
+- **关键点**：需要记录上一个 `1` 的位置 `last`。
+- **易错点**：
+    1.  `last` 初始值应该设为 `-1`，表示还没遇到过 `1`。如果设为 `0`，当最低位不是 `1` 时（如 `n=8, 1000`）会算错距离。
+    2.  循环条件必须是 `n > 0`，否则会漏掉最高位。
+    3.  二进制虽然是倒序处理（低位到高位），但不影响相对距离的计算。
+
+[查看代码](./868_Binary_Gap.cpp)
+
+---
+
+### 3. 无重复字符的最长子串
+
+**题目描述**：给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+
+**核心思路**：**滑动窗口**
+- 维护一个窗口 `[left, right]` 和一个哈希集合 `window`。
+- `right` 指针主动向右扩展，将字符加入窗口。
+- **收缩条件**：当新加入的字符 `s[right]` 在集合中**已存在**（重复）时。
+- **收缩动作**：`while` 循环不断删除 `s[left]` 并让 `left` 右移，直到集合中不再包含该重复字符。
+- **易错点**：
+    1.  删除元素时，不能只删一次，也不能乱删 `begin()`，必须删 `s[left]` 直到重复消除。
+    2.  最大长度 `max_length` 应该在每次成功加入新字符后更新。
+
+[查看代码](./3_Longest_Substring_Without_Repeating_Characters.cpp)
