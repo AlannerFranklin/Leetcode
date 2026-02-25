@@ -25,3 +25,9 @@
 | 415. 字符串相加 | [LeetCode Link](https://leetcode.cn/problems/add-strings/) |
 | 868. 二进制间距 | [LeetCode Link](https://leetcode.cn/problems/binary-gap/description/?envType=daily-question&envId=2026-02-22) |
 | 1461. 检查一个字符串是否包含所有长度为 K 的二进制子串 | [LeetCode Link](https://leetcode.cn/problems/check-if-a-string-contains-all-binary-codes-of-size-k/?envType=daily-question&envId=2026-02-23) |
+| 32. 最长有效括号 | [LeetCode Link](https://leetcode.cn/problems/longest-valid-parentheses/) |
+| 41. 缺失的第一个正数 | [LeetCode Link](https://leetcode.cn/problems/first-missing-positive/) |
+| 56. 合并区间 | [LeetCode Link](https://leetcode.cn/problems/merge-intervals/) |
+| 165. 比较版本号 | [LeetCode Link](https://leetcode.cn/problems/compare-version-numbers/) |
+| 354. 俄罗斯套娃信封问题 | [LeetCode Link](https://leetcode.cn/problems/russian-doll-envelopes/) |
+| 931. 下降路径最小和 | [LeetCode Link](https://leetcode.cn/problems/minimum-falling-path-sum/) |
