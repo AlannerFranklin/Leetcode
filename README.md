@@ -32,3 +32,4 @@
 | 354. 俄罗斯套娃信封问题 | [LeetCode Link](https://leetcode.cn/problems/russian-doll-envelopes/) |
 | 931. 下降路径最小和 | [LeetCode Link](https://leetcode.cn/problems/minimum-falling-path-sum/) |
 | 1404. 将二进制表示减到 1 的步骤数 | [LeetCode Link](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |
+| 1545. 找出第 N 个二进制字符串中的第 K 位 | [LeetCode Link](https://leetcode.cn/problems/find-kth-bit-in-nth-binary-string/) |
