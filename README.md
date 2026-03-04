@@ -34,3 +34,4 @@
 | 1404. 将二进制表示减到 1 的步骤数 | [LeetCode Link](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |
 | 1545. 找出第 N 个二进制字符串中的第 K 位 | [LeetCode Link](https://leetcode.cn/problems/find-kth-bit-in-nth-binary-string/) |
 | 3859. 计数满足条件的子数组 (Hard) | [Local Solution](3859_Count_Subarrays_With_K_Different_Integers_And_M_Frequency/README.md) |
+| 37. 解数独 | [LeetCode Link](https://leetcode.cn/problems/sudoku-solver/) |
