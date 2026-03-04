@@ -36,3 +36,4 @@
 | 3859. 计数满足条件的子数组 (Hard) | [Local Solution](3859_Count_Subarrays_With_K_Different_Integers_And_M_Frequency/README.md) |
 | 37. 解数独 | [LeetCode Link](https://leetcode.cn/problems/sudoku-solver/) |
 | 51. N 皇后 | [LeetCode Link](https://leetcode.cn/problems/n-queens/) |
+| 52. N 皇后 II | [LeetCode Link](https://leetcode.cn/problems/n-queens-ii/) |
