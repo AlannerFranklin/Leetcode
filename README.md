@@ -45,4 +45,5 @@
 | 52. N 皇后 II | [LeetCode Link](https://leetcode.cn/problems/n-queens-ii/) |
 | 77. 组合 | [LeetCode Link](https://leetcode.cn/problems/combinations/) |
 | 78. 子集 | [LeetCode Link](https://leetcode.cn/problems/subsets/) |
+| 93. 复原 IP 地址 | [LeetCode Link](https://leetcode.cn/problems/restore-ip-addresses/) |
 | 526. 优美的排列 | [LeetCode Link](https://leetcode.cn/problems/beautiful-arrangement/) |
