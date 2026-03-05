@@ -27,6 +27,7 @@
 | 415. 字符串相加 | [LeetCode Link](https://leetcode.cn/problems/add-strings/) |
 | 695. 岛屿的最大面积 | [LeetCode Link](https://leetcode.cn/problems/max-area-of-island/) |
 | 698. 划分为k个相等的子集 | [LeetCode Link](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) |
+| 980. Unique Paths III | [LeetCode Link](https://leetcode.cn/problems/unique-paths-iii/) |
 | 868. 二进制间距 | [LeetCode Link](https://leetcode.cn/problems/binary-gap/description/?envType=daily-question&envId=2026-02-22) |
 | 1461. 检查一个字符串是否包含所有长度为 K 的二进制子串 | [LeetCode Link](https://leetcode.cn/problems/check-if-a-string-contains-all-binary-codes-of-size-k/?envType=daily-question&envId=2026-02-23) |
 | 32. 最长有效括号 | [LeetCode Link](https://leetcode.cn/problems/longest-valid-parentheses/) |
@@ -44,3 +45,4 @@
 | 52. N 皇后 II | [LeetCode Link](https://leetcode.cn/problems/n-queens-ii/) |
 | 77. 组合 | [LeetCode Link](https://leetcode.cn/problems/combinations/) |
 | 78. 子集 | [LeetCode Link](https://leetcode.cn/problems/subsets/) |
+| 526. 优美的排列 | [LeetCode Link](https://leetcode.cn/problems/beautiful-arrangement/) |
