@@ -17,6 +17,7 @@
 | 103. 二叉树的锯齿形层序遍历 | [LeetCode Link](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/) |
 | 124. 二叉树中的最大路径和 | [LeetCode Link](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) |
 | 143. 重排链表 | [LeetCode Link](https://leetcode.cn/problems/reorder-list/) |
+| 1254. 统计封闭岛屿的数目 | [LeetCode Link](https://leetcode.cn/problems/number-of-closed-islands/) |
 | 146. LRU 缓存 | [LeetCode Link](https://leetcode.cn/problems/lru-cache/description/) |
 | 160. 相交链表 | [LeetCode Link](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/) |
 | 200. 岛屿数量 | [LeetCode Link](https://leetcode.cn/problems/number-of-islands/) |
@@ -33,7 +34,10 @@
 | 931. 下降路径最小和 | [LeetCode Link](https://leetcode.cn/problems/minimum-falling-path-sum/) |
 | 1404. 将二进制表示减到 1 的步骤数 | [LeetCode Link](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |
 | 1545. 找出第 N 个二进制字符串中的第 K 位 | [LeetCode Link](https://leetcode.cn/problems/find-kth-bit-in-nth-binary-string/) |
+| 1758. 生成交替二进制字符串的最少操作数 | [LeetCode Link](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/) |
 | 3859. 计数满足条件的子数组 (Hard) | [Local Solution](3859_Count_Subarrays_With_K_Different_Integers_And_M_Frequency/README.md) |
 | 37. 解数独 | [LeetCode Link](https://leetcode.cn/problems/sudoku-solver/) |
 | 51. N 皇后 | [LeetCode Link](https://leetcode.cn/problems/n-queens/) |
 | 52. N 皇后 II | [LeetCode Link](https://leetcode.cn/problems/n-queens-ii/) |
+| 77. 组合 | [LeetCode Link](https://leetcode.cn/problems/combinations/) |
+| 78. 子集 | [LeetCode Link](https://leetcode.cn/problems/subsets/) |
