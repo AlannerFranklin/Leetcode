@@ -17,6 +17,7 @@
 | 103. 二叉树的锯齿形层序遍历 | [LeetCode Link](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/) |
 | 124. 二叉树中的最大路径和 | [LeetCode Link](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) |
 | 143. 重排链表 | [LeetCode Link](https://leetcode.cn/problems/reorder-list/) |
+| 1020. 飞地的数量 | [LeetCode Link](https://leetcode.cn/problems/number-of-enclaves/) |
 | 1254. 统计封闭岛屿的数目 | [LeetCode Link](https://leetcode.cn/problems/number-of-closed-islands/) |
 | 146. LRU 缓存 | [LeetCode Link](https://leetcode.cn/problems/lru-cache/description/) |
 | 160. 相交链表 | [LeetCode Link](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/) |
@@ -24,6 +25,8 @@
 | 215. 数组中的第K个最大元素 | [LeetCode Link](https://leetcode.cn/problems/kth-largest-element-in-an-array/description/) |
 | 236. 二叉树的最近公共祖先 | [LeetCode Link](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description/) |
 | 415. 字符串相加 | [LeetCode Link](https://leetcode.cn/problems/add-strings/) |
+| 695. 岛屿的最大面积 | [LeetCode Link](https://leetcode.cn/problems/max-area-of-island/) |
+| 698. 划分为k个相等的子集 | [LeetCode Link](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) |
 | 868. 二进制间距 | [LeetCode Link](https://leetcode.cn/problems/binary-gap/description/?envType=daily-question&envId=2026-02-22) |
 | 1461. 检查一个字符串是否包含所有长度为 K 的二进制子串 | [LeetCode Link](https://leetcode.cn/problems/check-if-a-string-contains-all-binary-codes-of-size-k/?envType=daily-question&envId=2026-02-23) |
 | 32. 最长有效括号 | [LeetCode Link](https://leetcode.cn/problems/longest-valid-parentheses/) |
