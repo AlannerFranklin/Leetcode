@@ -17,6 +17,7 @@
 | 103. 二叉树的锯齿形层序遍历 | [LeetCode Link](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/) |
 | 124. 二叉树中的最大路径和 | [LeetCode Link](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) |
 | 143. 重排链表 | [LeetCode Link](https://leetcode.cn/problems/reorder-list/) |
+| 148. 排序链表 | [LeetCode Link](https://leetcode.cn/problems/sort-list/) |
 | 1020. 飞地的数量 | [LeetCode Link](https://leetcode.cn/problems/number-of-enclaves/) |
 | 1254. 统计封闭岛屿的数目 | [LeetCode Link](https://leetcode.cn/problems/number-of-closed-islands/) |
 | 146. LRU 缓存 | [LeetCode Link](https://leetcode.cn/problems/lru-cache/description/) |
