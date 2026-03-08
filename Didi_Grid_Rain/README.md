@@ -29,18 +29,18 @@
     *   **差分数组定义**：`diff[i] = height[i] - height[i-1]`。它的性质是：区间 `[l, r]` 增加 `d`，只需要修改两个点：`diff[l] += d` 和 `diff[r+1] -= d`。
     *   **离散化**：因为大部分位置的 `diff` 值都是 0，我们不需要存储它们。用 `map` 只存储非 0 的点，`map` 会自动按键值（位置）排序，完美解决了空间问题。
 
-### 2. 如何还原高度？（扫描线算法）
+### 2. 如何还原高度？
 
-代码中的 `for (auto &[pos, delta] : diff)` 就是一个扫描线的过程：
-*   `cur`：维护当前区间的高度（即差分数组的前缀和）。
-*   `prev`：维护上一个区间的起始位置。
-*   `len = pos - prev`：计算当前高度维持了多长（从 `prev` 到 `pos-1`）。
-
-在这个循环中，我们统计了每种高度出现了多少次，存入 `cnt`：
+有了 `diff` map，我们只需要遍历它，就能还原出每一段的高度。
 ```cpp
-// cnt[h] = 高度为 h 的方格堆总数
-if (len > 0 && cur > 0) {
-    cnt[cur] += len;
+long long cur = 0; // 当前累积高度
+int prev = 1;      // 上一个有变化的位置
+
+for (auto const& [pos, delta] : diff) {
+    long long len = pos - prev; // 这一段的长度
+    if (len > 0) cnt[cur] += len; // 记录高度为 cur 的堆有多少个
+    cur += delta; // 更新当前高度
+    prev = pos;
 }
 ```
 **注意**：`map` 中的 `pos` 是高度发生**变化**的点。在 `prev` 到 `pos` 之间，高度是保持不变的，这就是为什么我们可以直接 `cnt[cur] += len`。

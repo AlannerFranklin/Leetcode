@@ -33,20 +33,24 @@ int main() {
     // cnt[h] = 拥有高度 h 的方格堆的数量
     // 这里的 h 指的是最终的高度
     map<long long, long long> cnt;
+    
+    long long cur = 0; // 当前高度
+    int prev = 1;      // 上一个有变化的位置
+    
+    for (auto const& [pos, delta] : diff) {
+        // 如果当前位置超过了 n，我们只需要处理到 n 为止
+        if (pos > n) {
+            break;
+        }
 
-    int prev = 1;          // 上一个处理的位置
-    long long cur = 0;     // 当前的高度（差分数组的前缀和）
-
-    // 遍历差分数组（相当于扫描线）
-    // map 会自动按 key (位置) 排序
-    for (auto &[pos, delta] : diff) {
-        // 计算从 prev 到 pos-1 这段区间的长度
-        // 这段区间内没有发生高度变化，高度都是 cur
+        // 统计 [prev, pos-1] 这一段的高度
+        // 这一段的高度都是 cur
         long long len = pos - prev;
-        
-        // 如果长度有效且当前高度 > 0 (高度为0的不需要统计，因为 f(x) 只关心 >= x, x>=1)
-        if (len > 0 && cur > 0) {
-            cnt[cur] += len;
+        if (len > 0) {
+            if (cur > 0) { // 只统计高度 > 0 的，虽然题目没明说初始高度0算不算，但通常f(x)关注正高度
+                           // 题目问的是 f(1)...f(10^100)，所以高度0其实不影响 f(x>=1)
+                cnt[cur] += len;
+            }
         }
 
         // 更新当前高度
